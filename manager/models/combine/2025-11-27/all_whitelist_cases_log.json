@@ -1,0 +1,634 @@
+{
+    "timestamp": "2025-11-28T15:22:35.475761",
+    "model1": "../../models/2025-11-27/speechmaster/18_model118.onnx",
+    "model2": "../../models/2025-11-27/speechmaster/62_model94.onnx",
+    "immutable_whitelist1": [
+        0,
+        3,
+        10
+    ],
+    "immutable_whitelist2": [
+        1,
+        4,
+        9
+    ],
+    "overlap_warning": null,
+    "remaining_classes": [
+        2,
+        5,
+        6,
+        7,
+        8
+    ],
+    "total_cases": 32,
+    "cases": [
+        {
+            "case_index": 0,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                6,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9
+            ],
+            "output_model": "../../models/combine/combined_case_0.onnx"
+        },
+        {
+            "case_index": 1,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                6,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_1.onnx"
+        },
+        {
+            "case_index": 2,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                6,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_2.onnx"
+        },
+        {
+            "case_index": 3,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                6
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_3.onnx"
+        },
+        {
+            "case_index": 4,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                6
+            ],
+            "output_model": "../../models/combine/combined_case_4.onnx"
+        },
+        {
+            "case_index": 5,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                6,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_5.onnx"
+        },
+        {
+            "case_index": 6,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                6,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_6.onnx"
+        },
+        {
+            "case_index": 7,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                5
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                6,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_7.onnx"
+        },
+        {
+            "case_index": 8,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                6,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5
+            ],
+            "output_model": "../../models/combine/combined_case_8.onnx"
+        },
+        {
+            "case_index": 9,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                6,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_9.onnx"
+        },
+        {
+            "case_index": 10,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                6,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_10.onnx"
+        },
+        {
+            "case_index": 11,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                6
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_11.onnx"
+        },
+        {
+            "case_index": 12,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                6
+            ],
+            "output_model": "../../models/combine/combined_case_12.onnx"
+        },
+        {
+            "case_index": 13,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                6,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_13.onnx"
+        },
+        {
+            "case_index": 14,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                6,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_14.onnx"
+        },
+        {
+            "case_index": 15,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                2
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                5,
+                6,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_15.onnx"
+        },
+        {
+            "case_index": 16,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                6,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2
+            ],
+            "output_model": "../../models/combine/combined_case_16.onnx"
+        },
+        {
+            "case_index": 17,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                6,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_17.onnx"
+        },
+        {
+            "case_index": 18,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                6,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_18.onnx"
+        },
+        {
+            "case_index": 19,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                6
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_19.onnx"
+        },
+        {
+            "case_index": 20,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                6
+            ],
+            "output_model": "../../models/combine/combined_case_20.onnx"
+        },
+        {
+            "case_index": 21,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                6,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_21.onnx"
+        },
+        {
+            "case_index": 22,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                6,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_22.onnx"
+        },
+        {
+            "case_index": 23,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                5
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                6,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_23.onnx"
+        },
+        {
+            "case_index": 24,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                6,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5
+            ],
+            "output_model": "../../models/combine/combined_case_24.onnx"
+        },
+        {
+            "case_index": 25,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                6,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_25.onnx"
+        },
+        {
+            "case_index": 26,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                6,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_26.onnx"
+        },
+        {
+            "case_index": 27,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                6
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_27.onnx"
+        },
+        {
+            "case_index": 28,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                7,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                6
+            ],
+            "output_model": "../../models/combine/combined_case_28.onnx"
+        },
+        {
+            "case_index": 29,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                7
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                6,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_29.onnx"
+        },
+        {
+            "case_index": 30,
+            "final_whitelist1": [
+                0,
+                10,
+                3,
+                8
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                6,
+                7
+            ],
+            "output_model": "../../models/combine/combined_case_30.onnx"
+        },
+        {
+            "case_index": 31,
+            "final_whitelist1": [
+                0,
+                10,
+                3
+            ],
+            "final_whitelist2": [
+                1,
+                4,
+                9,
+                2,
+                5,
+                6,
+                7,
+                8
+            ],
+            "output_model": "../../models/combine/combined_case_31.onnx"
+        }
+    ]
+}
